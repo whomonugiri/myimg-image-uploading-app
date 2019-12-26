@@ -3,8 +3,8 @@ Language Used - HTML,CSS,Javascript,PHP & MySql
 
 in these project you can upload images after creating a new account. and also the user uploading images can delete or share the direct link or HTML code of the image.
 
-take a look at my youtube video for see working of project
-- 
+take a look at my youtube video for see working of project<br>
+- https://www.youtube.com/watch?v=BzZMx6xdSUM
 
 DATABASE -----------------
 you can change database details in
