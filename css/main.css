@@ -1,0 +1,368 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+*{
+    transition: all .3s;
+}
+
+.header{
+    position: fixed;
+    width:100vw;
+    background-color:white;
+    padding:10px 0px;
+    border-bottom: 1px solid #EBEDEF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.logo-img{
+    height: 30px;   
+}
+
+ul,li{
+    padding: 0px;
+    margin:0px;
+    
+}
+.site-logo{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    font-weight: bold;
+    margin:0px 10px;
+    font-size:17px;
+    cursor: pointer;
+}
+
+.li:hover{
+    color: #FC0050;
+}
+
+.right-side-menu{
+    text-align: right;
+}
+
+.spcl-btn{
+    background: linear-gradient(45deg,#FC0067,#FC0050);
+    color:white;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+.spcl-btnd{
+    background-color:crimson;
+    color:white;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+.spcl-btn:hover,.spcl-btnd:hover{
+    opacity: 0.8;
+}
+
+
+.upload-call-area{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-call-area h1{
+    font-size:40px;
+        font-family: 'Quicksand', sans-serif;
+}
+.upload-call-area p{
+    font-size:25px;
+    font-family: 'Courier Prime', monospace;
+}
+.center-align{
+    width:60%;
+    text-align:center;
+}
+
+button{
+    outline:none;
+}
+.buttonu{
+    cursor: pointer;
+    padding:10px 15px;
+    font-size:20px;
+    border: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+label{
+    display: inline-block;
+}
+
+#image{
+    display: none;
+}
+
+.error{
+    text-align: center;
+    display: inline-block;
+    font-family: 'Courier Prime', monospace;
+    color:red;
+    padding:10px;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.signin-cover{
+    width:100%;
+    height: 100vh;
+    top:0px;
+    background-color: rgba(44, 62, 80 ,0.5);
+    position: absolute;
+    z-index:+9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input-align{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.signin-box{
+   padding:10px;
+    background-color: white;
+    text-align: right;
+    border-bottom:5px solid #FC0050;
+    border-top:10px solid #FC0050;
+    border-radius:5px;
+}
+
+
+
+.input{
+    border:1px solid #D6DBDF;
+    border-radius:10px;
+    width:400px;
+     font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+    padding:10px;
+    outline:none;
+    
+}
+
+.login-btn{
+    cursor: pointer;
+    color:white;
+  border:0px solid #EBEDEF;
+    border-radius:10px;
+  background: linear-gradient(45deg,#FC0067,#FC0050);
+     font-family: 'Quicksand', sans-serif;
+    font-size:22px;
+    padding:6px 10px;
+    outline:none;  
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login-btn:hover{
+    opacity: 0.8;
+}
+
+.login-title{
+    text-align: center;
+    padding:10px 0px;
+}
+
+.close-btn-area{
+  font-size:25px;
+    color: #FC0050;
+}
+
+.close-btn:hover{
+    opacity:0.75;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.signup-cover{
+    width:100%;
+    height: 100vh;
+    top:0px;
+    z-index:+9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signup-cover .signin-box{
+    box-shadow:0px 0px 5px 0px #ABB2B9;
+     padding:10px;
+    background-color: white;
+    text-align: right;
+    border-bottom:0px solid #FC0050;
+    border-top:0px solid #FC0050;
+    border-radius:5px;
+}
+
+.signup-cover h1{
+    text-align: center;
+    font-size:30px;
+        font-family: 'Quicksand', sans-serif;
+    padding:0px;
+    margin:0px;
+    margin-top:10px;
+}
+.signup-cover p{
+    padding:0px;
+    margin:0px;
+    text-align: center;
+    font-size:20px;
+    font-family: 'Courier Prime', monospace;
+    margin-bottom:20px;
+}
+.inputr{
+    border:1px solid #D6DBDF;
+    border-radius:10px;
+    
+     font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+    padding:10px;
+    outline:none;
+    
+}
+.gallery{
+    top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    width:90%;
+}
+.gap{
+    height: 60px;
+}
+.input-align-r{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.usernamer{
+    grid-column: span 2;
+}
+
+.passwordr{
+   grid-column: span 2; 
+}
+
+.success{
+    padding:10px;
+    background-color: lightcyan;
+    color:forestgreen;
+    font-size:15px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius:5px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.image-app{
+/*    padding-right:20px;*/
+/*    box-shadow:0px 0px 5px 0px #ABB2B9;*/
+    width:auto;
+/*    padding:5px;*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0px;
+}
+.image-app textarea{
+    height: 280px;
+}
+.img .up-img{
+    height:300px;
+}
+.img-code{
+    
+}
+textarea{
+     background: linear-gradient(45deg,#FC0067,#FC0050);
+    color:white;
+    border:0px;
+    padding:10px;
+/*    width:500px;*/
+    width:100%;
+    outline:none;
+}
+.fimg{
+    padding:5px;
+    box-shadow:0px 0px 3px 0px black;
+    margin:7px;
+}
+.fimg img{
+width:200px;    
+}
+
+.fimg:hover{
+    background: linear-gradient(45deg,#FC0067,#FC0050);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.up{
+    text-align: center;
+    margin:8px;
+}
+
+.credit{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  position:fixed;
+  z-index:+9999;
+  bottom:0px;
+  right:0px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  opacity:0.9;
+
+}
+.credit .name-section{
+  font-family: 15px;
+  text-align: right;
+
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.credit .social-icons{
+  font-size: 25px;
+  text-align: right;
+  margin:1px;
+}
+
+.credit i{
+  cursor: pointer;
+  margin:5px;
+}
+
+.git:hover{
+  color:#34495E;
+}
+
+.insta:hover{
+color:#C90CEE;
+}
+
+.in:hover{
+color:#0CA4EE;
+}
